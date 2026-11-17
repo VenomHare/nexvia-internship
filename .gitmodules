@@ -1,0 +1,7 @@
+[submodule "FS-01"]
+	path = FS-01
+	url = git@github.com:VenomHare/marketly.git
+
+[submodule "FS-02"]
+	path = FS-02
+	url = git@github.com:VenomHare/conflux.git
