@@ -5,6 +5,24 @@ its setup instructions, architecture, data/API documentation, test evidence,
 and demo link. The project folders have their own Git histories and code-level
 documentation.
 
+## Clone the projects
+
+Clone this repository with its submodules initialized:
+
+```sh
+git clone --recurse-submodules https://github.com/VenomHare/nexvia-internship.git
+```
+
+If you already cloned it without submodules, run:
+
+```sh
+git submodule update --init --recursive
+```
+
+Git does not read a repository's `.gitmodules` file as an instruction to
+automatically fetch submodules during a plain `git clone`. Use
+`--recurse-submodules` when cloning.
+
 Both projects were built with OpenAI Codex using prompts directed by me. I
 reviewed and verified the implementations and demo flows.
 
